@@ -185,6 +185,181 @@ h1 h2 h3 h4 h5 h6{
     color: #fff;
 }
 
+/**  ABOUT PAGE **/
+#about-traa{
+    height: 700px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+#about-traa .orange-background{
+    width: 1024px;
+    height: 430px;
+    background-color: #ddd;
+    top: 482px;
+    position: absolute;
+}
+
+.about-traa{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1024px;
+    height: 700px;
+    z-index: 1;
+    position: relative;
+}
+
+
+.about-info{
+    width: 400px;
+    height:680px;
+    padding-left: 10px;
+
+}
+.about-info h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    width: 389px;
+    height: 144px;
+    margin-bottom: 140px;
+}
+.about-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 450px;
+    margin-top: 30px;
+}
+
+#executives{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 730px;
+    height:400px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    border: 1px solid #ddd;
+}
+
+#executives h2{
+    height: 100px;
+    font-size: 40px;
+    text-align: center;
+}
+
+#traa-executives{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+
+    height:300px;
+    margin: 0 auto;
+
+}
+
+.traa-executives{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 220px;
+    height: 70px;
+    background-color: #ddd;
+    color: white;
+    text-align: center;
+}
+
+.more-about{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+    margin-bottom: 50px;
+    border: 1px solid #ddd;
+}
+
+.more-about h2{
+    height: 100px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.more-about p{
+    height: 200px;
+    text-align: center;
+}
+
+#volunteer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height:400px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    border: 1px solid #ddd;
+}
+
+#volunteer h2{
+    height: 100px;
+    font-size: 40px;
+    text-align: center;
+}
+
+#volunteer-committee{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    height:300px;
+    margin: 0 auto;
+
+}
+
+.volunteer-committee{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 220px;
+    height: 70px;
+    background-color: #ddd;
+    color: white;
+    text-align: center;
+}
+
+
+.traa-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+    margin-bottom: 50px;
+    border: 1px solid #ddd;
+}
+
+.traa-links h2{
+    height: 100px;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+.traa-links ul{
+    height: 300px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.traa-links li a{
+    list-style-type: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: grey;
+}
+
+
+
+
 /*** Footer ***/
 #main-footer{
     display: flex;
