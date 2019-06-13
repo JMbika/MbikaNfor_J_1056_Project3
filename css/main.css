@@ -1,0 +1,259 @@
+body{
+    font-family:'Roboto', sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
+    color: #696969;
+    background-color: #fff;
+}
+h1 h2 h3 h4 h5 h6{
+    font-family: 'Gothic A1', sans-serif;
+}
+.hidden{
+    display: none;
+}
+
+.main-container{
+    width: 1024px;
+    padding: 0 0 10px 0;
+	margin: 0 auto;
+}
+
+.main-header {
+	display: flex;
+	flex-direction: row;
+    justify-content: space-between;
+    height:100px;
+    margin-top: 10px;
+    background-color: #ddd;
+}
+
+.main-navigation {
+	display: flex;
+	flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 100px;
+}
+
+#header-icons {
+	width: 300px;
+    height: 50px;
+    padding: 0;
+    align-items: flex-end;
+
+}
+
+.header-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.header-icons li a{
+    list-style-type: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    color:#fff;
+}
+
+#main-nav{
+   height: 40px;
+   width: 450px;
+   padding: 0;
+}
+.main-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: flex-end;
+}
+
+.main-nav li a{
+    list-style-type: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #fff;
+}
+
+
+
+/* Featured Event */
+
+.featured-event{
+    display: flex;
+	flex-direction: row;
+    justify-content: space-between;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+}
+
+.featuredImage{
+    width: 50%;
+    background-color: grey;
+}
+
+#featuredevent-info{
+    display: flex;
+	flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+    padding-left: 20px;
+}
+
+#eventDate {
+    height: 100px;
+}
+
+#eventDetails {
+    height: 200px;
+}
+#eventDetails h3{
+    padding-bottom: 10px;
+}
+/* Upcoming and past events */
+
+.events-container{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    height: 700px;
+}
+
+#upcoming-events{
+    width: 80%;
+}
+
+#events{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.event{
+    width: 368px;
+    height: 300px;
+    border: 1px solid #ddd;
+    margin-bottom: 30px;
+
+}
+
+.eventInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 10px;
+    }
+.eventDate{
+    width: 70px;
+}
+
+.eventDetails{
+    width: 250px;
+}
+
+.eventDetails h3{
+    padding-bottom: 10px;
+}
+
+#events button{
+    align-content: center !important;
+}
+
+
+
+/*Past Events */
+#past-events{
+    width: 15%;
+    align-items: center;
+    background-color: #ddd;
+    padding-left: 20px;
+}
+
+.past-events {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+
+.past-events li a{
+    list-style-type: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #fff;
+}
+
+/*** Footer ***/
+#main-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff;
+    height: 70px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background-color:#ddd;
+    padding: 20px;
+}
+
+
+
+#footer-links{
+    display: flex;
+	flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+}
+
+#footer-nav{
+   height: 40px;
+   width: 200px;
+   padding: 0;
+}
+.footer-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.footer-nav li a{
+    list-style-type: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #fff;
+}
+
+
+#footer-icons{
+   height: 40px;
+   width: 70px;
+   padding: 0;
+}
+
+.footer-icons {
+   display: flex;
+   flex-direction: row;
+   justify-content:space-around;
+}
+
+.footer-icons li a{
+   list-style-type: none;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-size: 13px;
+
+}
+
+.footer-icons li {
+   align-self: center;
+}
+
+
+
+#copyright p{
+    text-align: center;
+    font-size: 0.75em;
+}

@@ -4,47 +4,181 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Gothic+A1|Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
     <title>Document</title>
 </head>
 <body>
-    <main class="maincontainer">
+    <h1 class="hidden">Thames Valley Anglers Associations</h1>
+    <main class="main-container">
+        <!-- Header -->
         <header class="main-header">
-            <div class="logo"></div>
-            <div class="main-navigation">
-                <div class="header-icons">
-                    <div class="social-media">
-
-                    </div>
-                    <div class="icons">
-
-                    </div>
-                </div>
+            <h2 class="hidden">Header</h2>
+            <div class="logo">
+                <h3 class="hidden">Logo</h3>
+                <a href="index.html"> <img src="https://place-hold.it/100x100" alt=""></a>
             </div>
-        </header>
-        <section class="featured-event">
-
-        </section>
-        <section class="events-container">
-            <section class="upcoming-events">
-
-            </section>
-            <section class="past-events">
-
-            </section>
-        </section>
-        <footer class="footer">
-            <section class="footer-navigation">
-                <nav class="footer-nav">
+            <div class="main-navigation">
+                <div id="header-icons">
+                    <h3 class="hidden">Header Icons</h3>
+                    <ul class="header-icons">
+                        <li><a href="#"><img src="https://place-hold.it/30x30" alt="facebook"></a></li>
+                        <li><a href="#"><img src="https://place-hold.it/30x30" alt="youtube"></a></li>
+                        <li><a href="#"><img src="https://place-hold.it/30x30" alt="shop"></a></li>
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#">Donate</a></li>
+                    </ul>
+                </div>
+                <nav id="main-nav">
+                    <h3 class="hidden">Navigation Bar</h3>
+                    <ul class="main-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="newsletter.html">Newsletter</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
 
                 </nav>
-                <div class="footer-social">
+            </div>
+        </header> <!-- Header ends -->
 
+        <!-- Featured Events -->
+        <section class="featured-event">
+            <h2 class="hidden">Featured Event</h2>
+            <div id="featuredImage">
+                <img src="https://place-hold.it/512x300" alt="">
+            </div>
+            <div id="featuredevent-info">
+                <div id="eventDate">
+                    <p>Date</p>
                 </div>
-            </section>
-            <section class="copyright">
+                <div id="eventDetails">
+                    <h3>Event Title</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
+            </div>
 
+        </section> <!-- Featured Events  ends-->
+
+        <!-- upcoming  and past Events -->
+        <section class="events-container">
+            <h2 class="hidden">Events</h2>
+            <section id="upcoming-events">
+                <h2 class="hidden">Upcoming Events</h2>
+                <div id="events">
+                    <div class="event"> <!-- Event 1 -->
+                        <div class="eventImage">
+                            <img src="https://place-hold.it/368x150 " alt="">
+                        </div>
+                        <div class="eventInfo">
+                            <div class="eventDate">
+                                <p class="month">Month</p>
+                                <p>Day</p>
+                            </div>
+                            <div class="eventDetails">
+                                <h3>Event Title</h3>
+                                <p>Lorem ipsum dolor sit, </br>
+                                    consectetur adipisicing elit,
+                                </p>
+                            </div>
+                        </div>
+                    </div> <!-- Event 1 ends -->
+                    <div class="event"> <!-- Event 1 -->
+                        <div class="eventImage">
+                            <img src="https://place-hold.it/368x150 " alt="">
+                        </div>
+                        <div class="eventInfo">
+                            <div class="eventDate">
+                                <p class="month">Month</p>
+                                <p>Day</p>
+                            </div>
+                            <div class="eventDetails">
+                                <h3>Event Title</h3>
+                                <p>Lorem ipsum dolor sit, </br>
+                                    consectetur adipisicing elit,
+                                </p>
+                            </div>
+                        </div>
+                    </div> <!-- Event 1 ends -->
+                    <div class="event"> <!-- Event 1 -->
+                        <div class="eventImage">
+                            <img src="https://place-hold.it/368x150 " alt="">
+                        </div>
+                        <div class="eventInfo">
+                            <div class="eventDate">
+                                <p class="month">Month</p>
+                                <p>Day</p>
+                            </div>
+                            <div class="eventDetails">
+                                <h3>Event Title</h3>
+                                <p>Lorem ipsum dolor sit, </br>
+                                    consectetur adipisicing elit,
+                                </p>
+                            </div>
+                        </div>
+                    </div> <!-- Event 1 ends -->
+                    <div class="event"> <!-- Event 1 -->
+                        <div class="eventImage">
+                            <img src="https://place-hold.it/368x150 " alt="">
+                        </div>
+                        <div class="eventInfo">
+                            <div class="eventDate">
+                                <p class="month">Month</p>
+                                <p>Day</p>
+                            </div>
+                            <div class="eventDetails">
+                                <h3>Event Title</h3>
+                                <p>Lorem ipsum dolor sit, </br>
+                                    consectetur adipisicing elit,
+                                </p>
+                            </div>
+                        </div>
+                    </div> <!-- Event 4 ends -->
+                </div>
+                <button type="button" name="button">Load more</button>
+            </section> <!-- Events End -->
+
+
+            <section id="past-events">
+                <h3>Past Events</h3>
+                <ul class="past-events">
+                    <li><a href="#"></a>year1</li>
+                    <li><a href="#"></a>year2</li>
+                    <li><a href="#"></a>year3</li>
+                    <li><a href="#"></a>year4</li>
+                    <li><a href="#"></a>year5</li>
+                    <li><a href="#"></a>year6</li>
+                </ul>
             </section>
-        </footer>
+        </section><!-- upcoming and past Events ends -->
+
+        <!-- Footer-->
+        <footer id="main-footer">
+            <h2 class="hidden">Footer</h2>
+            <section id="footer-links">
+                <nav id="footer-nav">
+                    <h3 class="hidden">Footer navigation</h3>
+                    <ul class="footer-nav">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                 </nav>
+                 <div id="footer-icons">
+                    <h3 class="hidden">Social Media Icons</h3>
+                    <ul class="footer-icons">
+                        <li><a href="#"><img src="https://place-hold.it/30x30" alt="facebook"></a></li>
+                        <li><a href="#"><img src="https://place-hold.it/30x30" alt="youtube"></a></li>
+                 </div>
+            </section>
+
+            <div id="copyright">
+                <p>Thames Valley Anglers Association &copy; 2019. All rights Reserved<p>
+            </div>
+        </footer>  <!--end footerNav-->
 
     </main>
     <script src="js/main.js"></script>
